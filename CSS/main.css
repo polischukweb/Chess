@@ -1,0 +1,48 @@
+body{
+    background-color: #bb855f;
+    padding: 0px;
+    margin: 0px;
+}
+.table{
+    border: 1px solid #000;
+    }
+.board-border{
+    position: relative;
+    border: 25px solid #dfbb97;
+    padding: 0;
+    position: relative;
+    min-width: max-content;
+}
+.board-border:before{
+    content: url('/img/1.jpg');
+    position: absolute;
+    top: 741px;
+    left: 35px;
+}
+.board-border-border{
+    border: 3px solid #000;
+    display: inline-block;
+    margin-top: 90px;
+    margin-left: 130px;
+    position: relative;
+    }
+
+.board-border-border:after{
+    content: url('/img/2.jpg');
+    position: absolute;
+    top: 64px;
+    left: 4px;
+    
+}
+
+}
+.board-border:after{
+    
+    }
+.cell{
+    border: 0.5px solid #000;
+    width: 86px;
+    height: 86px;
+    text-align: center;
+    font-size: 65px;
+}
